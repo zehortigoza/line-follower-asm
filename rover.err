@@ -1,0 +1,13 @@
+Warning[205] C:\USERS\37419582807\DESKTOP\ZE\ROVER\ROVER.ASM 14 : Found directive in column 1. (ORG)
+Warning[203] C:\USERS\37419582807\DESKTOP\ZE\ROVER\ROVER.ASM 15 : Found opcode in column 1. (GOTO)
+Warning[205] C:\USERS\37419582807\DESKTOP\ZE\ROVER\ROVER.ASM 18 : Found directive in column 1. (ORG)
+Warning[207] C:\USERS\37419582807\DESKTOP\ZE\ROVER\ROVER.ASM 19 : Found label after column 1. (AUX)
+Warning[203] C:\USERS\37419582807\DESKTOP\ZE\ROVER\ROVER.ASM 20 : Found opcode in column 1. (RETFIE)
+Message[302] C:\USERS\37419582807\DESKTOP\ZE\ROVER\ROVER.ASM 32 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\37419582807\DESKTOP\ZE\ROVER\ROVER.ASM 34 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\37419582807\DESKTOP\ZE\ROVER\ROVER.ASM 36 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\37419582807\DESKTOP\ZE\ROVER\ROVER.ASM 38 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\37419582807\DESKTOP\ZE\ROVER\ROVER.ASM 40 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\37419582807\DESKTOP\ZE\ROVER\ROVER.ASM 43 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[305] C:\USERS\37419582807\DESKTOP\ZE\ROVER\ROVER.ASM 54 : Using default destination of 1 (file).
+Warning[205] C:\USERS\37419582807\DESKTOP\ZE\ROVER\ROVER.ASM 83 : Found directive in column 1. (END)
