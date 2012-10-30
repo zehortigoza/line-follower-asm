@@ -48,19 +48,18 @@ INICIO
 
   ; PROGRAMA PRINCIPAL
 MAIN:
-   ; MOVFW INFRARED_PORT, AUX ;MOVFW INFRARED_PORT
-	MOVFW INFRARED_PORT
-	MOVWF AUX
-	RRF AUX               ;roll 1 time because the first port of infrared is 1
-	MOVFW AUX
-	ADDWF PCL,F
+    MOVFW INFRARED_PORT
+    MOVWF AUX
+    RRF AUX               ;roll 1 time because the first port of infrared is 1
+    MOVFW AUX
+    ADDWF PCL,F
     GOTO OUT_OF_TAPE      ;000
-    GOTO TURN_LEFT        ;001
+    GOTO TURN_RIGHT       ;001
     GOTO STRAIGHT         ;010
-    GOTO TURN_LEFT        ;011
-    GOTO TURN_RIGHT       ;100
+    GOTO TURN_RIGHT       ;011
+    GOTO TURN_LEFT        ;100
     GOTO UNDEF            ;101
-    GOTO TURN_RIGHT       ;110
+    GOTO TURN_LEFT        ;110
     GOTO UNDEF            ;111
 
 UNDEF:
